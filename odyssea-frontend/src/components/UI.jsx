@@ -140,7 +140,6 @@ export const UI = ({ hidden, ...props }) => {
           <div
             className="bg-white rounded-lg shadow-md p-3 h-full flex flex-col relative"
             style={{
-              backgroundImage: "url('/textures/peopleprofilers.png')",
               backgroundRepeat: "no-repeat",
               backgroundPosition: "center",
               backgroundSize: "120px",

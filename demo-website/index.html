@@ -111,12 +111,14 @@
   <button id="chatbot-button"></button>
 
   <!-- Chat popup -->
-  <div id="chatbot-popup">
-    <!-- Refresh button -->
-    <button id="chatbot-refresh" title="Refresh Chat"></button>
+<div id="chatbot-popup">
+  <!-- Refresh button -->
+  <button id="chatbot-refresh" title="Refresh Chat"></button>
 
-    <iframe id="chatbot-frame" src="http://localhost:5173/"></iframe>
-  </div>
+  <!-- Updated iframe src to Netlify deployment -->
+  <iframe id="chatbot-frame" src="https://peopleprofilerschatbot.netlify.app/"></iframe>
+</div>
+
 
   <script>
     const chatbotButton = document.getElementById('chatbot-button');
