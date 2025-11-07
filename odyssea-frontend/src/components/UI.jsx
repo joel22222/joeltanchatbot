@@ -11,7 +11,7 @@ export const UI = ({ hidden, ...props }) => {
 
   // Chat history state - Initialize with welcome message
   const [chatHistory, setChatHistory] = useState([
-    { role: "bot", content: "Welcome to People Profilers! How can I assist you today?" }
+    { role: "bot", content: "Hellp I am Joel Tan's chatbot! How can I assist you today?" }
   ]);
 
   // Chat container ref for auto-scrolling
